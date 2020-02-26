@@ -1,7 +1,24 @@
+@font-face {
+    font-family: inder;
+    src: url('Inder-Regular.ttf') format('trueType');
+}
+@font-face {
+    font-family: alegreya-light;
+    src: url('alegreya-sans-light_[allfont.es].ttf') format('trueType');
+}
+@font-face {
+    font-family: alegreya-bold;
+    src: url('alegreya-sans-bold_[allfont.es].ttf') format('trueType');
+}
 body {
     background: url('../img/fondol3.jpg');
     background-repeat: no-repeat;
     background-color: #F9F1CF;
+}
+header {
+    font-family: alegreya-light;
+    font-size: 24px;
+    color: #fff;
 }
 a {
     text-decoration: none;
@@ -12,11 +29,21 @@ a:hover {
     color: #fff;
 }
 nav {
+    font-family: alegreya-bold;
     color: silver;
-    font-size: 20px;
+    font-size: 25px;
 }
 nav:hover {
     cursor: default;
+}
+section {
+    font-family: inder;
+    font-size: 14px;
+}
+#titulo {
+    font-family: alegreya-light;
+    font-size: 18px;
+    margin-top: 47px;
 }
 #contenido {
     width: 1000px;
@@ -34,4 +61,9 @@ nav:hover {
 }
 #contenido .linea {
     width: inherit
+}
+footer {
+    font-family: alegreya-light;
+    font-size: 13px;
+    color: silver;
 }
