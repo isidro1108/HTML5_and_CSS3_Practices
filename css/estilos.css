@@ -1,0 +1,19 @@
+a {
+    text-decoration: none;
+    color: orange;
+    font-size: 20px;
+}
+a:hover {
+    color: #fff;
+}
+nav {
+    color: silver;
+    font-size: 20px;
+}
+nav:hover {
+    cursor: default;
+}
+#contenido {
+    width: 1000px;
+    margin: 0 auto;
+}
