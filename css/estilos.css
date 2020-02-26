@@ -17,3 +17,15 @@ nav:hover {
     width: 1000px;
     margin: 0 auto;
 }
+
+#contenido .articulo {
+    width: 240px;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    text-align: center;
+    background-color: #fff;
+    padding: 5px 5px 22px 5px;
+}
+#contenido .linea {
+    width: inherit
+}
