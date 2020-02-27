@@ -16,9 +16,21 @@ body {
     background-color: #F9F1CF;
 }
 header {
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
     font-family: alegreya-light;
     font-size: 24px;
     color: #fff;
+}
+#franja {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 60px;
+    background-color: #313B44;
+    border-bottom: 6px black solid;
 }
 a {
     text-decoration: none;
