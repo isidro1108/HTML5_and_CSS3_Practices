@@ -38,6 +38,7 @@ a {
 }
 a:hover {
     color: #fff;
+    transition: 0.5s;
 }
 nav {
     width: 800px;
